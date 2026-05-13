@@ -54,7 +54,7 @@ PUZZLES = [
     {
         "id": 3,
         "type": "inspect_clue",
-        "title": "Final Clue",
+        "title": "Final Puzzle",
         "question": "Hmmm nothing suspicious here 👀. Maybe there's something under the surface?",
         "hidden_clue": "TODO:\n"
         "remove hardcoded clue before production \n\n"
@@ -124,7 +124,7 @@ def puzzle():
                     rebus_progress[rebus_key] = True
                     rebus_feedback[rebus_key] = {
                         "status": "success",
-                        "message": "Solved. Cute and clever."
+                        "message": "Solved! Cute and clever 😏"
                     }
                 else:
                     rebus_feedback[rebus_key] = {
