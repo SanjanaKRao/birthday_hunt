@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Treasure Hunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="page-shell">
+        <section class="card hero-card">
+            <div class="cat-parade" aria-hidden="true">
+                <svg class="cat-illustration" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31 35L45 17L56 39" fill="#FFCBBE" stroke="#725766" stroke-width="4" stroke-linejoin="round"/>
+                    <path d="M89 35L75 17L64 39" fill="#FFCBBE" stroke="#725766" stroke-width="4" stroke-linejoin="round"/>
+                    <circle cx="60" cy="62" r="31" fill="#FFE7DE" stroke="#725766" stroke-width="4"/>
+                    <circle cx="49" cy="59" r="4" fill="#725766"/>
+                    <circle cx="71" cy="59" r="4" fill="#725766"/>
+                    <path d="M60 65L56 70H64L60 65Z" fill="#FF9FB3"/>
+                    <path d="M60 70C58 74 55 76 51 76" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M60 70C62 74 65 76 69 76" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M28 65H47" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M25 73H45" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M73 65H92" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M75 73H95" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M44 91C48 84 54 81 60 81C66 81 72 84 76 91" fill="#FFD974" stroke="#725766" stroke-width="4" stroke-linejoin="round"/>
+                </svg>
+                <svg class="cat-illustration party flip" viewBox="0 0 120 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31 45L45 27L56 49" fill="#FFE08A" stroke="#725766" stroke-width="4" stroke-linejoin="round"/>
+                    <path d="M89 45L75 27L64 49" fill="#FFE08A" stroke="#725766" stroke-width="4" stroke-linejoin="round"/>
+                    <circle cx="60" cy="72" r="31" fill="#FFF0E9" stroke="#725766" stroke-width="4"/>
+                    <path d="M52 16L78 44H41L52 16Z" fill="#FF8FA6" stroke="#725766" stroke-width="4" stroke-linejoin="round"/>
+                    <circle cx="52" cy="12" r="5" fill="#FFD974"/>
+                    <path d="M49 69C49 66 51 64 54 64C57 64 59 66 59 69" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M61 69C61 66 63 64 66 64C69 64 71 66 71 69" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M60 75L56 80H64L60 75Z" fill="#FF9FB3"/>
+                    <path d="M60 80C57 83 54 85 50 85" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M60 80C63 83 66 85 70 85" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M28 75H47" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M25 83H45" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M73 75H92" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M75 83H95" stroke="#725766" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <span class="eyebrow">Birthday treasure hunt</span>
+
+            <div class="title-block">
+                <h1>Welcome to the online part of the hunt</h1>
+                <p class="lead"> Solve the puzzles one by one to unlock your final present.<br> Failure may result in lifelong roasting 😚</p>
+            </div>
+
+            <div class="hero-grid">
+                <div class="detail">
+                    <span class="detail-label">Mission</span>
+                    <strong>Use that big brain to survive this operation.</strong>
+                </div>
+                <div class="detail">
+                    <span class="detail-label">Warning</span>
+                    <strong>Suspiciously handsome participants may encounter aggressive kisses. Stay focussed at all costs.</strong>
+                </div>
+            </div>
+
+            <div class="cta-row">
+                <a class="button" href="/puzzle">Start the Birthday Hunt</a>
+            </div>
+
+            <div class="sparkle-row" aria-hidden="true">
+                <span class="sparkle"></span>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
