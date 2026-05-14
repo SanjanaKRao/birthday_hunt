@@ -46,8 +46,8 @@ PUZZLES = [
     {
         "id": 2,
         "type": "progressive_single",
-        "question": "Puzzle 2: IBQQZ CJSUIEBZ! J MPWF ZPV TP NVDI!",
-        "answer": "HAPPY BIRTHDAY! I LOVE YOU SO MUCH!",
+        "question": "Puzzle 2: UIF GJOBM DMVF JT TJLF! OPU IFSF",
+        "answer": "THE FINAL CLUE IS SIKE! NOT HERE",
         "hint1": "Think Caesar cipher",
         "hint2": "The birthday message has been shifted 1 step forward."
     },
