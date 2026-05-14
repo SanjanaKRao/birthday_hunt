@@ -49,7 +49,7 @@ PUZZLES = [
         "question": "Puzzle 2: UIF GJOBM DMVF JT TJLF! OPU IFSF",
         "answer": "THE FINAL CLUE IS SIKE! NOT HERE",
         "hint1": "Think Caesar cipher",
-        "hint2": "The birthday message has been shifted 1 step forward."
+        "hint2": "The message has been shifted 1 step forward."
     },
     {
         "id": 3,
